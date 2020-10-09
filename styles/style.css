@@ -57,13 +57,16 @@
   }
 /*Prabenn codes*/
   .container {
-    width: 98%;
+    width: 90%;
     height: 100vh;
     padding: 50px;
     float: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     z-index: 0;
   padding: 0px;
   margin: 0px;
@@ -126,10 +129,14 @@
   .container .container__comment {
     width: auto;
     height: 300px;
-    padding: 10px;
+    padding: 10px;    
     border: 5px solid black;
     border-radius: 13px;
     color: #fff;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
   
   .container .container__comment p {
@@ -145,6 +152,12 @@
   }
   }
 /*bishal codes*/
+.bishal
+{
+	 position: fixed;
+    right	: 0;
+    top: 0;
+}
 .accountbox{
   position: absolute;
   top: 10px;
